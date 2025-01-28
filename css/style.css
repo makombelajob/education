@@ -226,16 +226,8 @@ footer {
         display: var(--dsp-grid);
         grid-template-columns: repeat(2, 1fr);
     }
-    .grid {
+    #grid {
         display: var(--dsp-grid);
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        .green {
-            margin-top: 0px;
-            margin-bottom: 0px;
-        }
     }
-
 }
