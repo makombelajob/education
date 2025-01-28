@@ -1,5 +1,5 @@
 :root {
-    font-size: 16px;
+    font-size: 14px;
     --clr-app: #38c4c1;
     --clr-app-2: #38c4c231;
     --clr-app-3 : #38c4c252;
@@ -21,72 +21,68 @@ html {
     margin: 0;
     padding: 0;
     color : #42434B;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+     font-style: normal;
 }
 img {
-    vertical-align: bottom;
+    
+    width: 100%;
 }
 
 /* header style */
 header {
-    h2 a {
+    display: var(--dsp-flex);
+    justify-content: space-between;
+    align-items: center;
+    margin: 0; /* value help to align section center  later*/
+    h2 a{
         color: var(--clr-prat);
         text-decoration: var(--txt-decor);
-        font-size: 1.5rem;
-        padding-left: 2rem;
+        text-transform: uppercase;
+        padding: 2rem;
     }
     .burger {
         position: absolute;
-        right: 2rem;
-        top: 1rem;
-        font-size: 1.5rem;
-        a{
-            text-decoration: var(--txt-decor);
+        right: 10%;
+        padding: 1rem;
+        a {
+            text-decoration: none;
+            font-size: 1.5rem;
             color: black;
         }
     }
     nav ul {
-        list-style: var(--lst-style);
-        li a {
-            text-decoration: var(--txt-decor);
-            color: var(--clr-prat);
-            display: none;
-        }
+        display: none;
     }
 }
 
 /* main style */
 main {
-    text-align: var(--txt-alin);
-    img {
-        width: 100%;
-        vertical-align: middle;
-    }
-    h1 {
-        line-height: 53.35px;
+    #hero {
+        text-align: var(--txt-alin);
+        padding: 2rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        h1{
+        text-transform: uppercase;
         color: var(--clr-jeux);
-        font-size: 2.2rem;
-        margin: 1.3rem;
-    }
-    h2 {
-        margin-top: 0;
-        margin-bottom: 0;
+        margin: 0;
+        }
+        figure img {
+            object-fit: cover;
+            object-position: center;
+        }
     }
 
-    /* style for classes */
-    #accueil {
-        display: var(--dsp-flex);
-        flex-direction: column;
-        align-items: var(--alin-items);
-        article {
-            width: 401px;
-            height: 248px;
-            i {
-                margin-top: 50px;
-            }
-            h2 {
-                padding-block: 2rem;
-                font-size: 2rem;
-            }
+    #accueil{
+        display: var(--dsp-grid);
+        grid-template-rows: repeat(4, 1fr);
+        text-align: var(--txt-alin);
+        figure img {
+            width: 76px;
+            height: auto;
         }
         .green {
             background-color: var(--clr-app);
@@ -94,58 +90,57 @@ main {
         .yellow {
             background-color: var(--clr-philo);
         }
-        .purle{
+        .purple{
             background-color: var(--clr-prat);
         }
         .blue{
             background-color: var(--clr-jeux);
         }
     }
-    /* class propos style */
-    .center {
-        margin : 2rem;
-    }
-    #propos {
-        display: var(--dsp-flex);
-        flex-direction: column;
-        align-items: var(--alin-items);
-        gap : 1rem;
-        .logo {
-            width :78px;
-            margin: 0;
+
+    #propos{
+        text-align: var(--txt-alin);
+        margin:2rem;
+        p{
+            padding: 0.3rem;
         }
-        article:not(:first-child) {
-            width: 401px;
-            height: 248px;
+        h2{
+            font-size: 2rem;
         }
         .green{
             background-color: var(--clr-app-2);
-            a{
-                color: var(--clr-app);
+            padding: 0.5rem;
+            img {
+            width: 74px ;
+            height: auto;
+            }
+            a {
+                color : var(--clr-app);
                 text-decoration: var(--txt-decor);
             }
         }
         .purple{
             background-color: var(--clr-prat-2);
-            margin: 0s;
+            padding: 0.5rem;
+            img {
+            width: 74px ;
+            height: auto;
+            }
             a {
                 color: var(--clr-prat);
                 text-decoration: var(--txt-decor);
             }
         }
-        article p{
-            padding-inline: 2rem;
-            text-align: var(--txt-alin);
+        :not(:first-of-type) {
+            margin: 1rem;
         }
     }
-    
 }
-/* footer style */
+
 footer {
-    background-color: var(--clr-footer);
+    background-color: #333333;
     color: white;
     text-align: var(--txt-alin);
-    height: 94px;
-    width: 100%;
-    padding-top : 2rem;
+    height: 2rem;
+    padding : 1rem;
 }
