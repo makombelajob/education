@@ -126,55 +126,58 @@ main {
     #propos {
         text-align: var(--txt-alin);
         margin: 2rem;
+        margin-bottom: 0;
         p {
             padding: 0.3rem;
         }
         h2 {
             font-size: 2rem;
-        }
+        } 
+        figure{
+            margin: 0;
+            img{
+                display: block;
+            }
+        }   
+    }
+    .grid{
+        display: var(--dsp-flex);
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: var(--txt-alin);
+        margin: 2rem;
+        margin-top: 1rem;
+        gap : 1rem;
         .green {
             background-color: var(--clr-app-2);
             padding: 1rem;
-            margin: 1rem;
-            margin-left: 0px;
-            margin-right: 0px;
-            img {
-                width: 74px;
-                height: auto;
+            figure{
+                margin: 0;
+                img{
+                    width: 78px;
+                }
             }
-            a {
-                color: var(--clr-app);
+            a{
                 text-decoration: var(--txt-decor);
+                color: var(--clr-app);
             }
         }
-        .purple {
+        .purple{
             background-color: var(--clr-prat-2);
             padding: 1rem;
-            margin-left: 0;
-            margin-right: 0;
-            img {
-                width: 74px;
-                height: auto;
+            figure{
+                margin: 0;
+                img{
+                    width: 78px;
+                }
             }
-            a {
-                color: var(--clr-prat);
+            a{
                 text-decoration: var(--txt-decor);
+                color: var(--clr-prat);
             }
         }
         figure {
-            width: 100%;
             margin: 0;
-            img {
-                /* img style */
-            }
-        }
-    }
-    section:last-of-type {
-        figure {
-            margin: 2rem;
-            img {
-                width: 100%;
-            }
         }
     }
 }
@@ -234,4 +237,5 @@ footer {
             margin-bottom: 0px;
         }
     }
+
 }
