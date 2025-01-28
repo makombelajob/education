@@ -98,7 +98,7 @@ main {
             width: 100%;
             margin :0;
             img {
-                
+                display: block;
             }
         }
     }
@@ -136,7 +136,8 @@ main {
         }
         .green{
             background-color: var(--clr-app-2);
-            padding: 0.5rem;
+            padding: 1rem;
+            margin : 1rem;
             margin-left: 0px;
             margin-right: 0px;
             img {
@@ -150,9 +151,9 @@ main {
         }
         .purple{
             background-color: var(--clr-prat-2);
-            padding: 0.5rem;
-            margin-left: 0px;
-            margin-right: 0px;
+            padding: 1rem;
+            margin-left: 0;
+            margin-right: 0;
             img {
             width: 74px ;
             height: auto;
@@ -161,9 +162,6 @@ main {
                 color: var(--clr-prat);
                 text-decoration: var(--txt-decor);
             }
-        }
-        :not(:first-of-type) {
-            margin: 1rem;
         }
         figure{
             width: 100%;
@@ -175,9 +173,9 @@ main {
     }
     section:last-of-type{
         figure {
-            margin: 1.5rem;
+            margin: 2rem;
             img{
-                
+                width: 100%;               
             }
         }
     }
