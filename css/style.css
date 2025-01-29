@@ -64,7 +64,7 @@ header {
         }
     }
     .open {
-        /* display: none; */
+        display: none;
         position: absolute;
         text-align: center;
         top: 0;
@@ -142,6 +142,7 @@ main {
         }
         h2 {
             font-size: 2rem;
+            margin: 0;
         }
         figure {
             margin: 0;
@@ -209,6 +210,9 @@ footer {
     html {
         margin: 0;
     }
+    *{
+        box-sizing: border-box;
+    }
     header {
         margin: 0;
         a {
@@ -233,7 +237,14 @@ footer {
     }
     #accueil {
         display: var(--dsp-grid);
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        h2{
+            text-align: var(--txt-alin);
+        }
+        figure img{
+            text-align: var(--txt-alin);
+        }
     }
     #grid {
         display: var(--dsp-grid);
@@ -298,10 +309,12 @@ footer {
         }
         #propos{
             margin-left: 2rem;
+            margin-right: 0;
             padding: 0;
             height: 100%;
             article {
                 height: 100%;
+                margin-right: 0;
                 figure{
                     height: 100%;                   
                     img{
