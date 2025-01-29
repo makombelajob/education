@@ -203,7 +203,7 @@ footer {
         margin: 0;
         h2 a {
             padding: 0;
-            padding-left: 1.5rem;
+            padding-left: 2rem;
         }
         .burger {
             right: 3%;
@@ -212,13 +212,11 @@ footer {
     #hero {
         display: var(--dsp-grid);
         grid-template-columns: 1fr 1fr;
-        padding-left: 0;
-        padding-right: 0;
+        padding-inline: 0;
         div {
-            padding: 0;
-            margin: 1rem;
             h1 {
-                padding: 0;
+                padding: 2rem;
+                padding-inline :0;
             }
         }
     }
