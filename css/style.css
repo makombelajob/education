@@ -227,8 +227,9 @@ footer {
     #grid {
         display: var(--dsp-grid);
         grid-template-columns: 1fr 1fr;
-        .bug{
-            article figure{
+        article.bug{
+            figure{
+                height: 100%; /* this is too long */
                img{
                 height: 100%;
                } 
