@@ -291,13 +291,12 @@ footer {
         }
         #propos{
             margin-left: 2rem;
-            height: 100%;
             padding: 0;
             #desk figure{
                 width: 100%;
                 img{
-                    height: 100%;
-                    vertical-align: bottom;
+                    height: 100vh;
+                    object-fit: cover;
                 }
             }
         }
