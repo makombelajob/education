@@ -279,5 +279,13 @@ footer {
         }
     }
     #propos {
+        display: var(--dsp-flex);
+        flex-direction: column;
+        h3, h2 {
+            text-align: var(--txt-alin);
+            figure {
+                
+            }
+        }
     }
 }
