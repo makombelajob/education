@@ -291,6 +291,7 @@ footer {
         }
         #propos{
             margin-left: 2rem;
+            margin-top : 0;
             padding: 0;
             #desk figure{
                 width: 100%;
@@ -305,7 +306,7 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         article{
-
+            
         }
         article.bug{
             figure{
