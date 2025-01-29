@@ -258,6 +258,7 @@ footer {
             }
         }
     }
+
 }
 /* Responsive for Desktop */
 @media (min-width: 1024px) {
@@ -289,6 +290,7 @@ footer {
         grid-template-columns: repeat(4, 1fr);
         align-items: var(--alin-items);
         margin-top: 1rem;
+        margin-bottom : 0;
         gap: 0;
         article {
             height: 100%;
@@ -302,8 +304,8 @@ footer {
         display: var(--dsp-grid);
         grid-template-columns: 1fr 1fr;
         align-items: var(--alin-items);
-        margin-top: 3rem;
-        padding-top: 4rem;
+        margin-top: 0;
+        padding-top: 0;
         > div {
             grid-column: 1 / -1;
         }
