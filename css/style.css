@@ -123,7 +123,9 @@ main {
             background-color: var(--clr-jeux);
         }
     }
-
+    .wrapper{
+        text-align: var(--txt-alin);
+    }
     #propos {
         text-align: var(--txt-alin);
         margin: 2rem;
@@ -278,14 +280,12 @@ footer {
             }
         }
     }
-    #propos {
-        display: var(--dsp-flex);
-        flex-direction: column;
-        h3, h2 {
-            text-align: var(--txt-alin);
-            figure {
-                
-            }
+    .wrapper{
+        display: var(--dsp-grid);
+        grid-template-columns: 1fr 1fr;
+        align-items: var(--alin-items);
+        > div {
+            grid-column: 1 / -1;
         }
     }
 }
