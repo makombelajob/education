@@ -64,16 +64,23 @@ header {
         }
     }
     .open {
-        display: none;
+        /* display: none; */
         position: absolute;
+        text-align: center;
         top: 0;
         left: 0;
         bottom: 0;
         right: 50%;
         background-color: #333333;
-        li a {
+        ul{
+            padding-left: 0; /* code ajouter */
+            li a {
             color: white;
+            padding: 0;  /* code ajouter*/
+            text-align: var(--txt-alin);
         }
+        }
+        
     }
 }
 
