@@ -111,8 +111,12 @@ main {
     }
 
     #accueil {
-        display: var(--dsp-grid);
+        display : var(--dsp-grid);
         text-align: var(--txt-alin);
+        article{
+            line-height: normal;
+            width: 100%;
+        }
         figure img {
             width: 76px;
             height: auto;
@@ -152,8 +156,7 @@ main {
         }
     }
     .grid {
-        display: var(--dsp-flex);
-        flex-direction: column;
+        display: var(--dsp-grid);
         justify-content: space-between;
         text-align: var(--txt-alin);
         margin: 2rem;
@@ -240,7 +243,7 @@ footer {
         grid-template-columns: 1fr 1fr;
         width: 100%;
         h2{
-            text-align: var(--txt-alin);
+            text-align: var(--txt-alin);           
         }
         figure img{
             text-align: var(--txt-alin);
