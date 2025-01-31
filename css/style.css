@@ -41,12 +41,13 @@ header {
         text-decoration: var(--txt-decor);
         text-transform: uppercase;
         padding: 1rem;
+        padding-left: 2rem;
         font-size: 1.5rem;
     }
     .burger {
         /* display: none; */
         position: absolute;
-        right: 5%;
+        right: 2%;
         padding: 1rem;
         a {
             text-decoration: none;
@@ -72,15 +73,14 @@ header {
         bottom: 0;
         right: 50%;
         background-color: #333333;
-        ul{
+        ul {
             padding-left: 0; /* code ajouter */
             li a {
-            color: white;
-            padding: 0;  /* code ajouter*/
-            text-align: var(--txt-alin);
+                color: white;
+                padding: 0; /* code ajouter*/
+                text-align: var(--txt-alin);
+            }
         }
-        }
-        
     }
 }
 
@@ -111,9 +111,9 @@ main {
     }
 
     #accueil {
-        display : var(--dsp-grid);
+        display: var(--dsp-grid);
         text-align: var(--txt-alin);
-        article{
+        article {
             line-height: normal;
             width: 100%;
         }
@@ -213,7 +213,7 @@ footer {
     html {
         margin: 0;
     }
-    *{
+    * {
         box-sizing: border-box;
     }
     header {
@@ -224,13 +224,14 @@ footer {
             font-size: 1.5rem;
         }
         .burger {
-            right: 3%;
+            right: 2%;
         }
     }
     #hero {
         display: var(--dsp-grid);
         grid-template-columns: 1fr 1fr;
         padding-inline: 0;
+        align-items: center;
         div {
             h1 {
                 padding: 2rem;
@@ -238,14 +239,20 @@ footer {
             }
         }
     }
+    div.wrapper {
+        h3 {
+            font-weight: 300;
+        }
+    }
     #accueil {
         display: var(--dsp-grid);
         grid-template-columns: 1fr 1fr;
-        width: 100%;
-        h2{
-            text-align: var(--txt-alin);           
+        margin-left: 2rem;
+        margin-right: 2rem;
+        h2 {
+            text-align: var(--txt-alin);
         }
-        figure img{
+        figure img {
             text-align: var(--txt-alin);
         }
     }
@@ -261,7 +268,13 @@ footer {
             }
         }
     }
-
+    footer {
+        background-color: #333333;
+        color: white;
+        text-align: var(--txt-alin);
+        height: 4rem;
+        padding: 1rem;
+    }
 }
 /* Responsive for Desktop */
 @media (min-width: 1024px) {
@@ -293,7 +306,7 @@ footer {
         grid-template-columns: repeat(4, 1fr);
         align-items: var(--alin-items);
         margin-top: 1rem;
-        margin-bottom : 0;
+        margin-bottom: 0;
         gap: 0;
         article {
             height: 100%;
@@ -312,39 +325,39 @@ footer {
         > div {
             grid-column: 1 / -1;
         }
-        #propos{
+        #propos {
             margin-left: 2rem;
             margin-right: 0;
             padding: 0;
             height: 100%;
             article {
-                height: 100%;
+                height: 95%;
                 margin-right: 0;
-                figure{
-                    height: 100%;                   
-                    img{
-                        height: 95%;
-                        max-width: 100%;
+                figure {
+                    height: 100%;
+                    img {
+                        height: 100%;
+                        width: 100%;
                         object-fit: cover;
                     }
                 }
             }
         }
-       #grid{
-        display: var(--dsp-grid);
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        article.bug{
-            figure{
-                height: 100%;
-                width: 100%;
-                img{
-                    width: 100%;
+        #grid {
+            display: var(--dsp-grid);
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            article.bug {
+                figure {
                     height: 100%;
-                    object-fit: cover;
+                    width: 100%;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
                 }
             }
         }
-    }      
-    }  
+    }
 }
