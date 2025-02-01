@@ -255,6 +255,7 @@ footer {
     #accueil {
         display: var(--dsp-grid);
         grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
         margin : 2rem;
         h2 {
             text-align: var(--txt-alin);
