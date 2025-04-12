@@ -1,83 +1,77 @@
-# 🎓 Education - Site Web Éducatif
+# 🎓 Education - Educational Website
 
-Bienvenue dans le projet **Education**, une page web moderne dédiée à l’apprentissage ludique et à la découverte. Ce projet propose une interface attrayante et interactive mettant en avant l'éducation à travers le jeu, la pratique et la philosophie.
+Welcome to the **Education** project, a modern web page dedicated to fun and engaging learning. This project offers an attractive and interactive interface that promotes education through play, hands-on experience, and philosophy.
 
-## 🌐 Aperçu
+## 🌐 Overview
 
-![Aperçu](media/screenshot.png)
+![Preview](media/screenshot.png)
 
-Ce site HTML propose une structure responsive avec un menu de navigation, plusieurs sections informatives, des illustrations pédagogiques, et un style dynamique grâce à l’intégration de **Font Awesome**, **Google Fonts**, et une feuille de style CSS personnalisée.
-
----
-
-## 🚀 Fonctionnalités
-
-- Design responsive avec menu burger
-- Intégration de polices Google Fonts (Roboto, Oswald, Ubuntu)
-- Icônes interactives via Font Awesome
-- Structure claire avec sections :
-  - Hero (accroche)
-  - Accueil (valeurs éducatives)
-  - À propos (présentation de l'école)
-  - Équipe et mission (enseignants, objectifs)
-- Mise en avant visuelle à travers des images et des couleurs thématiques
-- Scripts JavaScript pour l’interactivité (ex: ouverture/fermeture du menu)
+This HTML website features a responsive layout with a navigation menu, multiple informative sections, educational illustrations, and a dynamic visual style thanks to the integration of **Font Awesome**, **Google Fonts**, and custom CSS styling.
 
 ---
 
-## 🛠️ Technologies utilisées
+## 🚀 Features
 
-- HTML5
-- CSS3 (avec un reset CSS)
-- JavaScript (fichier `script.js`)
-- [Font Awesome](https://fontawesome.com/)
+- Responsive design with burger menu
+- Integration of Google Fonts (Roboto, Oswald, Ubuntu)
+- Interactive icons using Font Awesome
+- Clear section structure:
+  - Hero (intro message)
+  - Home (educational values)
+  - About (school presentation)
+  - Team & Mission (teachers and goals)
+- Visual emphasis with themed colors and illustrations
+- JavaScript scripts for interactivity (e.g., menu toggle)
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5  
+- CSS3 (with CSS reset)  
+- JavaScript (`script.js`)  
+- [Font Awesome](https://fontawesome.com/)  
 - [Google Fonts](https://fonts.google.com/)
 
 ---
 
+## 📸 Screenshots
 
----
+Notable sections include:
 
-## 📸 Capture d’écran
+- **Home**
+  ![Home](media/Book.png)
 
-Quelques sections notables :
+- **About**
+  ![About](media/download%202.png)
 
-- **Accueil**
-  ![Accueil](media/Book.png)
-
-- **À propos**
-  ![À propos](media/download%202.png)
-
-- **Enseignants et mission**
+- **Teachers & Mission**
   ![Mission](media/Frame%201.png)
 
 ---
 
-## 📌 À améliorer / Bugs connus
+## 📌 To Improve / Known Issues
 
-- Certains articles de la section "grid" utilisent la classe `bug`, à corriger ou renommer pour plus de clarté.
-- Ajustements responsives à finaliser sur certains écrans (notamment sur bureau).
-- Le contenu est pour l’instant fictif (utilise du *Lorem ipsum*).
-
----
-
-## 🤝 Contribuer
-
-Toute contribution est la bienvenue ! N'hésitez pas à forker le projet, créer des branches, ou proposer des améliorations via des pull requests.
+- Some articles in the "grid" section use the class `bug`, which should be renamed or clarified.
+- Responsive layout needs refinement on some screen sizes (especially desktop).
+- Content is currently placeholder (*Lorem ipsum* text).
 
 ---
 
-## 📄 Licence
+## 🤝 Contributing
 
-Ce projet est sous licence **MIT** — voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
----
-
-## ✨ Auteur
-
-Réalisé avec ❤️ par **[Job Johnny]**
+Contributions are welcome! Feel free to fork the project, create branches, or suggest improvements via pull requests.
 
 ---
 
+## 📄 License
 
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
+---
+
+## ✨ Author
+
+Created with ❤️ by **[Job Johnny]**
+
+---
