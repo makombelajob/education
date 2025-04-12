@@ -40,13 +40,12 @@ This HTML website features a responsive layout with a navigation menu, multiple 
 Notable sections include:
 
 - **Home**
-  ![Home](media/Book.png)
+  ![Home]
 
 - **About**
-  ![About](media/download%202.png)
-
+  ![About]
 - **Teachers & Mission**
-  ![Mission](media/Frame%201.png)
+  ![Mission]
 
 ---
 
